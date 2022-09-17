@@ -29,6 +29,10 @@ h3 {
 	font-size: 6vw;
 }
 
+h5 {
+	font-size: 12px;
+}
+
 .myButton {
 	background-color:#3DB76F;
 	border-radius:22px;
@@ -259,7 +263,6 @@ h3 {
 }
 
 .services {
-    margin-bottom: 50px;
 	background-color: #FAFDF3;
 }
 
@@ -282,10 +285,13 @@ h3 {
     background-color: white;
 }
 
-.col {
-    margin-bottom: 20px;
+.contactLinks{
+	line-height: 16px;
+	margin-bottom: 1rem;
 }
-
+	
+	
+	
 .contact a {
     color: #1f1f1f;
     text-decoration: none;
@@ -307,11 +313,11 @@ h3 {
 }
 
 .addresslines {
-	margin-left: 52px;
+	margin-left: 30px;
 }
 	
 .accentColor {
-	color: #1D3E66;
+	color: darkgrey;
 }
 
 .contactForm {
@@ -411,6 +417,11 @@ form button {
     .contactDetails {
         margin-left: 10px;
     }
+	
+	.contactCol {
+		flex-direction: column;
+		margin-left: 5%;
+	}
 
     .social a {
         margin: 10px 10px 10px 10px;
@@ -459,15 +470,22 @@ form button {
 	background-color: #FAFDF3;
 }
 
+.contactInformation {
+	margin: 20px;
+}
+
 /*footer with disclaimer/logo*/
 .proventus {
 	height: 25px;
 	width: auto;
+	margin-top: -20px;
 }
 
 .disclaimer {
 	text-align: center;
-	margin: 20px;
+	margin-top: 60px;
+	margin-bottom: 20px;
+	color: darkgrey;
 }
 
 /*Gallery page*/
